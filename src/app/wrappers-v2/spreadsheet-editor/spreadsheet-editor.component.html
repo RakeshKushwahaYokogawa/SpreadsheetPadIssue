@@ -1,0 +1,8 @@
+<div class="position-relative">
+    <ejs-spreadsheet #spreadsheetDefault [id]="id" [showRibbon]="showToolBar && enabled" [showFormulaBar]="showFormulaBar && enabled"
+        (beforeOpen)="beforeOpen($event)" [allowSave]="allowSave && enabled" [saveUrl]="saveUrl" [openUrl]="openUrl"
+        [allowOpen]="allowOpen" (actionComplete)="contentChange()"
+        (contextMenuBeforeOpen)="removeContextMenuItems()" (beforeSave)="beforeSave($event)">
+    </ejs-spreadsheet>
+    <button class="button btn-primary save-btn" [disabled]="!enabled" *ngIf="allowSave" (click)="saveSpreadsheet()">{{'SaveBtn' }}</button>
+</div>

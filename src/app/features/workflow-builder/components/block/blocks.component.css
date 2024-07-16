@@ -1,0 +1,6 @@
+.bi-pencil::before {
+    color: var(--dark);
+}
+.bi-pencil:hover::before {
+    color: var(--secondary);
+}

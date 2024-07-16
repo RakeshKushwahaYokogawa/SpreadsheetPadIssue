@@ -1,0 +1,250 @@
+{
+    "id": "9e6d42cb-e179-4951-aaa5-cadb53689999",
+    "blockTypeId": "b62e15e3-a928-4a42-bdad-43cfe6218c75",
+    "blockTypeName": "Documentation",
+    "title": "DocSpread-001",
+    "version": "1.001",
+    "isDraft": false,
+    "isOldVersion": false,
+    "templateId": null,
+    "lastModified": "2024-07-10T11:58:08.609165Z",
+    "blocks": [
+        {
+            "id": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+            "index": 2,
+            "templateId": "9e6d42cb-e179-4951-aaa5-cadb53689999",
+            "parentBlockId": null,
+            "title": "Documentation",
+            "componentKey": "DocumentationBlockComponent",
+            "isRequired": false,
+            "isDuplicationAllowed": false,
+            "childBlocks": [],
+            "fields": [
+                {
+                    "id": "a46ba10e-a248-41d3-91d2-8f9125dbe441",
+                    "index": 1,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationId",
+                    "title": "Document Id",
+                    "value": "",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "e9af5170-d839-4fa5-b086-3b2fba92bd9c",
+                    "index": 2,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationEditorType",
+                    "title": "Type",
+                    "value": "2",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "fd8edd8b-3c4b-44be-9027-c299cf4edee3",
+                    "index": 3,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationName",
+                    "title": "Document Name",
+                    "value": "DocSpread-001",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "a0eee001-1f09-461a-9b1c-c0d1a8a9582a",
+                    "index": 4,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationAuthorName",
+                    "title": "Author Name",
+                    "value": "DocSpread",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "076a3048-bacb-4950-9736-4b3a4ff83e07",
+                    "index": 5,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationVersion",
+                    "title": "Version",
+                    "value": "01.001",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "3a5f2532-ea70-4bdb-aed5-8b9770750de0",
+                    "index": 6,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationDocumentNumber",
+                    "title": "Document Number",
+                    "value": "",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": false,
+                    "fieldEditableModes": [
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "429f9942-c704-462c-9ac8-e0f2eab13ffa",
+                    "index": 7,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationDrawingTools",
+                    "title": "Drawing Tools",
+                    "value": null,
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": false,
+                    "fieldEditableModes": [
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "63b10931-69c1-4403-8422-e49915dd5fa9",
+                    "index": 8,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationSignature",
+                    "title": "Signature",
+                    "value": null,
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "40a45657-b57c-4e21-ab10-7f82726ac2e5",
+                    "index": 9,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationAssignUser",
+                    "title": "Assign User",
+                    "value": null,
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": false,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "c16fc1a3-cecb-4bef-bf53-98d7029fcf43",
+                    "index": 10,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DocumentationTags",
+                    "title": "Tags",
+                    "value": "",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "d681f611-d6c8-47fd-96c7-d0fc43f45cef",
+                    "index": 11,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "Documentation",
+                    "title": "Documentation",
+                    "value": "{\"jsonObject\":{\"Workbook\":{\"enableRtl\":false,\"locale\":\"en\",\"showRibbon\":true,\"showFormulaBar\":true,\"allowSave\":true,\"saveUrl\":\"https://cloud.appdev.apps.yokogawa.build/eln-docs-mgmt-svc-ti/api/Syncfusion/spreadsheet/SaveAs\",\"openUrl\":\"https://cloud.appdev.apps.yokogawa.build/eln-docs-mgmt-svc-ti/api/Syncfusion/spreadsheet/open\",\"allowOpen\":true,\"enablePersistence\":false,\"cellStyle\":{\"fontFamily\":\"Calibri\",\"verticalAlign\":\"bottom\",\"textIndent\":\"0pt\",\"backgroundColor\":\"#ffffff\",\"color\":\"#000000\",\"textAlign\":\"left\",\"fontSize\":\"11pt\",\"fontWeight\":\"normal\",\"fontStyle\":\"normal\",\"textDecoration\":\"none\",\"border\":\"\",\"borderLeft\":\"\",\"borderTop\":\"\",\"borderRight\":\"\",\"borderBottom\":\"\"},\"showSheetTabs\":true,\"allowEditing\":true,\"enableContextMenu\":true,\"allowAutoFill\":true,\"selectionSettings\":{\"mode\":\"Multiple\"},\"enableKeyboardNavigation\":true,\"allowNumberFormatting\":true,\"enableKeyboardShortcut\":true,\"enableClipboard\":true,\"allowCellFormatting\":true,\"allowSorting\":true,\"allowResizing\":true,\"allowHyperlink\":true,\"allowUndoRedo\":true,\"allowFiltering\":true,\"allowWrap\":true,\"allowInsert\":true,\"allowDelete\":true,\"allowDataValidation\":true,\"allowFindAndReplace\":true,\"allowMerge\":true,\"allowConditionalFormat\":true,\"allowImage\":true,\"allowChart\":true,\"activeSheetIndex\":0,\"cssClass\":\"\",\"height\":\"100%\",\"width\":\"100%\",\"allowScrolling\":true,\"scrollSettings\":{\"enableVirtualization\":true,\"isFinite\":false},\"allowFreezePane\":true,\"definedNames\":[],\"isProtected\":false,\"password\":\"\",\"autoFillSettings\":{\"showFillOptions\":true},\"showAggregate\":true,\"sheets\":[{\"id\":1,\"name\":\"Sheet1\",\"rowCount\":100,\"colCount\":100,\"topLeftCell\":\"A1\",\"activeCell\":\"B1\",\"selectedRange\":\"B1:B1\",\"usedRange\":{\"rowIndex\":0,\"colIndex\":1},\"rows\":[{\"cells\":[{\"value\":\"DocSpread-001\"},{\"value\":\"DocSpread-001\"}]}],\"columns\":[{},{}],\"showHeaders\":true,\"showGridLines\":true,\"state\":\"Visible\",\"protectSettings\":{\"selectCells\":false,\"formatCells\":false,\"formatRows\":false,\"formatColumns\":false,\"insertLink\":false},\"isProtected\":false,\"frozenRows\":0,\"frozenColumns\":0,\"paneTopLeftCell\":\"A1\"}]}}}",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "b3cdad85-bd49-44cd-b14e-1e1c3effdacf",
+                    "index": 12,
+                    "templateBlockId": "6c8e4cbc-4ef8-4ef9-ac60-565a732ad06f",
+                    "key": "DefaultIsCompleted",
+                    "title": "Is Required",
+                    "value": null,
+                    "repeatInput": null,
+                    "selected": false,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": false,
+                    "fieldEditableModes": [
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                }
+            ]
+        }
+    ],
+    "isSuccess": true
+}

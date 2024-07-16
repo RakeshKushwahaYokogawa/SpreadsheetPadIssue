@@ -1,0 +1,77 @@
+<div class="row m-1 ml-0 mr-0">
+  <div class="col-12 pl-0 pr-0">
+    <div class="pb-4">
+      <div class="accordion">
+        <div class="accordion-item" [ngClass]="{ active: expand }">
+          <h4 class="accordion-header">
+            <div class="accordion-button" [ngClass]="{ collapsed: !expand }">
+              <div class="d-flex justify-content-between w-100">
+                <div *ngIf="!editTitle" class="d-flex align-items-start">
+                  <span class="mr-1">{{ index }}</span><span type="button"
+                    class="iconpanel {{ blockData.componentKey }} word-break-all" (click)="toggleExpand()">
+                    {{ blockData.title }}
+                  </span>
+                </div>
+                <div *ngIf="editTitle">
+                  <form id="CreateProjectForm" [formGroup]="form">
+                    <div class="row">
+                      <div class="col-9 d-flex align-items-center">
+                        <span type="button" class="iconpanel {{ blockData.componentKey }}"></span>
+                        <input class="form-control d-inline min-hgt-auto" type="text" formControlName="title"
+                          [attr.maxlength]="inputMaxLength" />
+                      </div>
+                      <div class="col-3 d-flex align-items-center">
+                        <button role="button" class="btn-transparent profileIcon saveicon pr-1"
+                          [disabled]="getTitleControl && getTitleControl.errors" (click)="updateBlockTitle()"></button>
+                        <em role="button" class="icon icon-close fs-5 align-self-center small"
+                          (click)="closeBlockTitle()"></em>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="align-items-center blockactions justify-content-end">
+                  <span
+                    *ngIf="workflowMode != taskExecution && taskView != workflowMode && templateView != workflowMode">
+                    <ejs-tooltip content="{{'Pin'}}" class="ml-1">
+                      <em role="button" [ngClass]="blockData.isDocked ? 'bi bi-pin' : 'activeIcon bi bi-pin'"
+                        class="headerTrash icon align-self-end pinblock" (click)="changeDock()"
+                        *ngIf="!blockData.isRequired && expand && !parentBlockId"></em>
+                    </ejs-tooltip>
+                    <ejs-tooltip content="{{'Delete'}}" class="ml-1">
+                      <a role="button" (click)="deleteBlock()"
+                        *ngIf="(!blockData.isRequired || parentBlockId) && expand">
+                        <img src="assets/images/templates/icon_delete.svg" width="20" alt="">
+                      </a>
+                    </ejs-tooltip>
+                    <ejs-tooltip content="{{'Configuration'}}" class="ml-1">
+                      <a role="button" (click)="openPropertyConfig()" *ngIf="expand && !parentBlockId">
+                        <img src="assets/images/templates/icon_Configuration.svg" width="20" alt="" />
+                      </a>
+                    </ejs-tooltip>
+                    <ejs-tooltip content="{{'Duplicate'}}" class="ml-1 mr-1">
+                      <a role="button" (click)="createDuplicate()"
+                        *ngIf="blockData.isDuplicationAllowed && expand && !parentBlockId">
+                        <img src="assets/images/templates/icon_clone.svg" width="20" alt="">
+                      </a>
+                    </ejs-tooltip>
+                  </span>
+                  <span class="ml-1" [ngClass]="expand ? 'uparrow' : 'downarrow'" type="button"
+                    (click)="toggleExpand()"></span>
+                </div>
+              </div>
+            </div>
+          </h4>
+          <div class="accordion-collapse collapse" [ngClass]="{ show: expand }">
+            <div class="accordion-body pt-0">
+              <div class="row m-0 p-0">
+                <div class="col-12">
+                  <ng-template dynamicBlock></ng-template>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

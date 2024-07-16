@@ -1,0 +1,19 @@
+[
+    {
+        "key": "04f4bca8-1aaf-4f78-a154-f8071ff14642",
+        "value": "SOP",
+        "requiredBlocks": []
+    },
+    {
+        "key": "404457bf-c683-465b-aeb1-6407267551bf",
+        "value": "Experiment",
+        "requiredBlocks": []
+    },
+    {
+        "key": "b62e15e3-a928-4a42-bdad-43cfe6218c75",
+        "value": "Documentation",
+        "requiredBlocks": [
+            "DocumentationBlockComponent"
+        ]
+    }
+]

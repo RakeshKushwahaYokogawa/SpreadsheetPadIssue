@@ -1,0 +1,101 @@
+{
+    "id": "56021916-f259-4b4f-92de-0d626111d510",
+    "blockTypeId": "b62e15e3-a928-4a42-bdad-43cfe6218c75",
+    "blockTypeName": "Documentation",
+    "title": "DocSample-001",
+    "version": "1.001",
+    "isDraft": false,
+    "isOldVersion": false,
+    "templateId": null,
+    "lastModified": "2024-07-11T05:47:14.092604Z",
+    "blocks": [
+        {
+            "id": "38faa50c-f99a-4947-b271-29ca90260313",
+            "index": 2,
+            "templateId": "56021916-f259-4b4f-92de-0d626111d510",
+            "parentBlockId": null,
+            "title": "Documentation",
+            "componentKey": "DocumentationBlockComponent",
+            "isRequired": false,
+            "isDuplicationAllowed": false,
+            "childBlocks": [],
+            "fields": [
+                {
+                    "id": "92c1ff2e-5428-4ff9-a860-a4aebee52cd3",
+                    "index": 1,
+                    "templateBlockId": "38faa50c-f99a-4947-b271-29ca90260313",
+                    "key": "DocumentationId",
+                    "title": "Document Id",
+                    "value": "",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "15e51672-a198-47c7-83f6-e915fdbd1a54",
+                    "index": 2,
+                    "templateBlockId": "38faa50c-f99a-4947-b271-29ca90260313",
+                    "key": "DocumentationEditorType",
+                    "title": "Type",
+                    "value": "1",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "954e62ad-fbf4-4292-87ef-675be743ea41"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "db1d748a-f06c-4182-bc45-422c7cca8808",
+                    "index": 11,
+                    "templateBlockId": "38faa50c-f99a-4947-b271-29ca90260313",
+                    "key": "Documentation",
+                    "title": "Documentation",
+                    "value": "{\"sections\":[{\"sectionFormat\":{\"pageWidth\":612,\"pageHeight\":792,\"leftMargin\":72,\"rightMargin\":72,\"topMargin\":72,\"bottomMargin\":72,\"differentFirstPage\":false,\"differentOddAndEvenPages\":false,\"headerDistance\":36,\"footerDistance\":36,\"bidi\":false,\"pageNumberStyle\":\"Arabic\"},\"blocks\":[{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"styleName\":\"Normal\",\"listFormat\":{}},\"characterFormat\":{},\"inlines\":[{\"characterFormat\":{},\"text\":\"DocSample-001\"},{\"characterFormat\":{},\"text\":\"DocSample-001\"},{\"characterFormat\":{},\"text\":\"DocSample-001\"}]},{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":0,\"afterSpacing\":0,\"spaceBeforeAuto\":false,\"spaceAfterAuto\":false,\"lineSpacing\":1,\"lineSpacingType\":\"Multiple\",\"styleName\":\"Normal (Web)\",\"listFormat\":{}},\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"inlines\":[{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"},{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"},{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"}]},{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":0,\"afterSpacing\":0,\"spaceBeforeAuto\":false,\"spaceAfterAuto\":false,\"lineSpacing\":1,\"lineSpacingType\":\"Multiple\",\"styleName\":\"Normal (Web)\",\"listFormat\":{}},\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"inlines\":[{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":12,\"fontFamily\":\"Noto Sans\",\"fontColor\":\"#00091AFF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":12,\"fontFamilyBidi\":\"Noto Sans\",\"allCaps\":false,\"fontFamilyAscii\":\"Noto Sans\",\"fontFamilyNonFarEast\":\"Noto Sans\",\"fontFamilyFarEast\":\"Noto Sans\"},\"text\":\"?\"},{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"},{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"},{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"fontColor\":\"#000000FF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false,\"fontFamilyAscii\":\"Calibri\",\"fontFamilyNonFarEast\":\"Calibri\",\"fontFamilyFarEast\":\"Calibri\"},\"text\":\"DocSample-001\"}]},{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":0,\"afterSpacing\":0,\"spaceBeforeAuto\":false,\"spaceAfterAuto\":false,\"lineSpacing\":1,\"lineSpacingType\":\"Multiple\",\"styleName\":\"Normal (Web)\",\"listFormat\":{}},\"characterFormat\":{},\"inlines\":[{\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":12,\"fontFamily\":\"Noto Sans\",\"fontColor\":\"#00091AFF\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":12,\"fontFamilyBidi\":\"Noto Sans\",\"allCaps\":false,\"fontFamilyAscii\":\"Noto Sans\",\"fontFamilyNonFarEast\":\"Noto Sans\",\"fontFamilyFarEast\":\"Noto Sans\"},\"text\":\"?\"}]}],\"headersFooters\":{\"header\":{\"blocks\":[{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"listFormat\":{}},\"characterFormat\":{},\"inlines\":[]}]},\"footer\":{\"blocks\":[{\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"listFormat\":{}},\"characterFormat\":{},\"inlines\":[]}]},\"evenHeader\":{},\"evenFooter\":{},\"firstPageHeader\":{},\"firstPageFooter\":{}}}],\"characterFormat\":{\"bold\":false,\"italic\":false,\"fontSize\":11,\"fontFamily\":\"Calibri\",\"underline\":\"None\",\"strikethrough\":\"None\",\"baselineAlignment\":\"Normal\",\"highlightColor\":\"NoColor\",\"fontColor\":\"#00000000\",\"boldBidi\":false,\"italicBidi\":false,\"fontSizeBidi\":11,\"fontFamilyBidi\":\"Calibri\",\"allCaps\":false},\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":0,\"afterSpacing\":0,\"lineSpacing\":1,\"lineSpacingType\":\"Multiple\",\"listFormat\":{},\"bidi\":false,\"keepLinesTogether\":false,\"keepWithNext\":false,\"widowControl\":true},\"themeFontLanguages\":{},\"defaultTabWidth\":36,\"trackChanges\":false,\"enforcement\":false,\"hashValue\":\"\",\"saltValue\":\"\",\"formatting\":false,\"protectionType\":\"NoProtection\",\"dontUseHTMLParagraphAutoSpacing\":false,\"formFieldShading\":true,\"compatibilityMode\":\"Word2013\",\"styles\":[{\"name\":\"Normal\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"listFormat\":{}},\"characterFormat\":{},\"next\":\"Normal\"},{\"name\":\"Heading 1\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":12,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level1\",\"listFormat\":{}},\"characterFormat\":{\"fontSize\":16,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"fontSizeBidi\":16},\"basedOn\":\"Normal\",\"link\":\"Heading 1 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 1 Char\",\"type\":\"Character\",\"characterFormat\":{\"fontSize\":16,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"fontSizeBidi\":16},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Default Paragraph Font\",\"type\":\"Character\",\"characterFormat\":{}},{\"name\":\"Heading 2\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":2,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level2\",\"listFormat\":{}},\"characterFormat\":{\"fontSize\":13,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"fontSizeBidi\":13},\"basedOn\":\"Normal\",\"link\":\"Heading 2 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 2 Char\",\"type\":\"Character\",\"characterFormat\":{\"fontSize\":13,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"fontSizeBidi\":13},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Heading 3\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":2,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level3\",\"listFormat\":{}},\"characterFormat\":{\"fontSize\":12,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#1F3763\",\"fontSizeBidi\":12},\"basedOn\":\"Normal\",\"link\":\"Heading 3 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 3 Char\",\"type\":\"Character\",\"characterFormat\":{\"fontSize\":12,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#1F3763\",\"fontSizeBidi\":12},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Heading 4\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":2,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level4\",\"listFormat\":{}},\"characterFormat\":{\"italic\":true,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"italicBidi\":true},\"basedOn\":\"Normal\",\"link\":\"Heading 4 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 4 Char\",\"type\":\"Character\",\"characterFormat\":{\"italic\":true,\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\",\"italicBidi\":true},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Heading 5\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":2,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level5\",\"listFormat\":{}},\"characterFormat\":{\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\"},\"basedOn\":\"Normal\",\"link\":\"Heading 5 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 5 Char\",\"type\":\"Character\",\"characterFormat\":{\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#2F5496\"},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Heading 6\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"leftIndent\":0,\"rightIndent\":0,\"firstLineIndent\":0,\"textAlignment\":\"Left\",\"beforeSpacing\":2,\"afterSpacing\":0,\"lineSpacing\":1.0791666507720947,\"lineSpacingType\":\"Multiple\",\"outlineLevel\":\"Level6\",\"listFormat\":{}},\"characterFormat\":{\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#1F3763\"},\"basedOn\":\"Normal\",\"link\":\"Heading 6 Char\",\"next\":\"Normal\"},{\"name\":\"Heading 6 Char\",\"type\":\"Character\",\"characterFormat\":{\"fontFamily\":\"Calibri Light\",\"fontColor\":\"#1F3763\"},\"basedOn\":\"Default Paragraph Font\"},{\"name\":\"Normal (Web)\",\"type\":\"Paragraph\",\"paragraphFormat\":{\"borders\":{\"top\":{},\"left\":{},\"right\":{},\"bottom\":{},\"horizontal\":{},\"vertical\":{}},\"beforeSpacing\":5,\"afterSpacing\":5,\"spaceBeforeAuto\":true,\"spaceAfterAuto\":true,\"listFormat\":{}},\"characterFormat\":{\"fontSize\":12,\"fontSizeBidi\":12},\"basedOn\":\"Normal\",\"next\":\"Normal (Web)\"}],\"lists\":[],\"abstractLists\":[],\"comments\":[],\"revisions\":[],\"customXml\":[]}",
+                    "repeatInput": null,
+                    "selected": true,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": true,
+                    "fieldEditableModes": [
+                        "954e62ad-fbf4-4292-87ef-675be743ea41",
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                        "10b6604f-a830-4b98-b481-7c199e9cc4b6"
+                    ],
+                    "isCalculated": false
+                },
+                {
+                    "id": "f4941d6a-0043-469c-9f1c-1c2ef2f89606",
+                    "index": 12,
+                    "templateBlockId": "38faa50c-f99a-4947-b271-29ca90260313",
+                    "key": "DefaultIsCompleted",
+                    "title": "Is Required",
+                    "value": null,
+                    "repeatInput": null,
+                    "selected": false,
+                    "disabled": false,
+                    "isRepeatable": false,
+                    "isNonConfigurable": false,
+                    "fieldEditableModes": [
+                        "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                    ],
+                    "isCalculated": false
+                }
+            ]
+        }
+    ],
+    "isSuccess": true
+}

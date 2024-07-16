@@ -1,0 +1,35 @@
+.userTab .e-tab-header {
+    position: absolute;
+    top: -6em;
+    display: flex;
+    justify-content: flex-end;
+    right: -2.3em;
+}
+.e-tab .e-tab-header .e-toolbar-item.e-active {
+    background: var(--secondary);
+}
+.e-tab .e-tab-header .e-toolbar-item.e-active .e-tab-text{
+    color: var(--white);
+}
+.e-tab .e-tab-header .e-toolbar-item.e-icon .e-tab-wrap {
+    border: 1px solid var(--secondary);
+}
+.e-tab .e-tab-header .e-indicator {
+    background: var(--secondary);
+}
+.e-tab .e-tab-header .e-toolbar-item .e-tab-text {
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.e-tab .e-tab-header .e-toolbar-item .e-text-wrap {
+    height: 32px;
+}
+.e-tab.addUser .e-tab-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+.e-tab .e-tab-header .e-indicator {
+    background: transparent !important;
+}

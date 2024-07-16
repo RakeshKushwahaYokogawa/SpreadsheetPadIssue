@@ -1,0 +1,17 @@
+[
+    {
+        "key": "954e62ad-fbf4-4292-87ef-675be743ea41",
+        "value": "TemplateCreation",
+        "requiredBlocks": null
+    },
+    {
+        "key": "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+        "value": "TaskCreation",
+        "requiredBlocks": null
+    },
+    {
+        "key": "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+        "value": "TaskExecution",
+        "requiredBlocks": null
+    }
+]

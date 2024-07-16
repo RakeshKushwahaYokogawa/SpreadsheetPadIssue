@@ -1,0 +1,5 @@
+<ejs-documenteditorcontainer #documenteditorDefault id='defaultDocumentEditor' [serviceUrl]='serviceUrl'
+    [toolbarItems]="toolbarItems" (created)="created()" [enableToolbar]="enabled"
+    [showPropertiesPane]="showPropertiesPane && enabled" height="600px" (contentChange)="contentChange()"
+    (documentChange)="contentChange()" class="d-block" [restrictEditing]="!enabled">
+</ejs-documenteditorcontainer>

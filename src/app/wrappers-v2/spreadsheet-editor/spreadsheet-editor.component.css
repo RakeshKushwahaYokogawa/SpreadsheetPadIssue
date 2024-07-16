@@ -1,0 +1,10 @@
+.save-btn{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.e-toolbar-items .e-toolbar-item[title="Protect Sheet"], 
+.e-toolbar-items .e-toolbar-item[title="Protect Workbook"], 
+.e-toolbar-items .e-toolbar-item[title="Protect Workbook"] + .e-toolbar-item.e-separator {
+    display: none;
+}

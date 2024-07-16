@@ -1,0 +1,15 @@
+.hyperlink {
+    color: var(--secondary) !important;
+    padding-right: 0;
+}
+.pl1  {
+    padding-left: 0.8rem;
+}
+.select:focus {
+    box-shadow: none !important;
+}
+@media(max-width:1400px) {
+    .pl1 {
+        padding-left: 1.3rem;
+    }
+}

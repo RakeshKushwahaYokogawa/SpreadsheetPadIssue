@@ -1,0 +1,63 @@
+[
+    {
+        "index": 2,
+        "blockTypeId": "b62e15e3-a928-4a42-bdad-43cfe6218c75",
+        "blockGroupId": "153edc57-bb78-4ae2-a16b-3a40081fa043",
+        "blockGroupTitle": "Steps",
+        "title": "Documentation",
+        "componentKey": "DocumentationBlockComponent",
+        "isRequired": false,
+        "isDuplicationAllowed": false,
+        "childBlocks": [],
+        "fields": [
+            {
+                "key": "DocumentationId",
+                "index": 1,
+                "title": "Document Id",
+                "value": null,
+                "selected": true,
+                "disabled": false,
+                "isRepeatable": false,
+                "isNonConfigurable": true,
+                "isCalculated": false,
+                "fieldEditableModes": [
+                    "954e62ad-fbf4-4292-87ef-675be743ea41",
+                    "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                    "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                ]
+            },
+            {
+                "key": "DocumentationEditorType",
+                "index": 2,
+                "title": "Type",
+                "value": "1",
+                "selected": true,
+                "disabled": false,
+                "isRepeatable": false,
+                "isNonConfigurable": true,
+                "isCalculated": false,
+                "fieldEditableModes": [
+                    "4dcc119b-c59a-4b61-b160-19a3360bc0ca",
+                    "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                    "954e62ad-fbf4-4292-87ef-675be743ea41"
+                ]
+            },
+            {
+                "key": "Documentation",
+                "index": 11,
+                "title": "Documentation",
+                "value": null,
+                "selected": true,
+                "disabled": false,
+                "isRepeatable": false,
+                "isNonConfigurable": true,
+                "isCalculated": false,
+                "fieldEditableModes": [
+                    "10b6604f-a830-4b98-b481-7c199e9cc4b6",
+                    "954e62ad-fbf4-4292-87ef-675be743ea41",
+                    "4dcc119b-c59a-4b61-b160-19a3360bc0ca"
+                ]
+            }
+        ]
+    }
+]

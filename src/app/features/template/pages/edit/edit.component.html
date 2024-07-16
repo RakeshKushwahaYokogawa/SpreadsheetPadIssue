@@ -1,0 +1,12 @@
+<form id="generalForm" *ngIf="form$ | async as form" [formGroup]="form">
+  <div class="container-fluid ml-15 bg-white p-3 mt-3 mr-1 temphgt">
+    <div class="col-12">
+      <app-template-header (on-configuration-clicked)="onConfigClicked()" [form$]="form$" [edit]="true">
+      </app-template-header>
+
+      <eln-dynamic-block-container [workflowMode]="workflowMode" (on-config-clicked)="openPropertyConfig($event)"
+        (onCreateDuplicateBlock)="createDuplicateBlock($event)"
+        (onDeleteBlock)="deleteBlock($event)"></eln-dynamic-block-container>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,26 @@
+<form #f="ngForm" *ngIf="form$ | async as form" [formGroup]="form">
+  <div class="row mt-3">
+    <div class="col-3 col-xxl-3">
+      <label for="formFile" class="form-label">{{'TemplateTitle'}}</label>
+      <input class="w-100 form-control p-2 template-title" type="text" placeholder="{{ 'TypeTemplateTitle'}}"
+        formControlName="title">
+      <div class="errorwrap">
+        <span class="error"
+          *ngIf="((form.get('title')?.touched || form.get('title')?.dirty) && form.get('title')?.errors)">
+          <span *ngIf="form.get('title')?.errors?.['required']">
+            {{ 'TemplateTitle' }} {{ 'Validation.IsRequired'}}</span>
+        </span>
+        <span class="error" *ngIf="form.get('title')?.errors?.['maxlength']">
+          {{ 'TemplateTitle'}}
+          {{ 'Validation.NameLimit'}}
+        </span>
+        <span class="error" *ngIf="form.get('title')?.errors?.['alreadyExist']">
+          {{ 'AlreadyExists'}}
+        </span>
+        <span class="error" *ngIf="form.get('title')?.errors?.['leadingWhitespace']">
+          {{ 'NoLeadingSpaces'}}
+        </span>
+      </div>
+    </div>
+  </div>
+</form>

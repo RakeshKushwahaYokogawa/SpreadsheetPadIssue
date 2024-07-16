@@ -1,0 +1,13 @@
+<div *ngIf="blocks$ | async as blocks">
+  <div class="row m-1 ml-0 mr-0" id="componentLoader">
+    <div class="col-12 min-vh-50 pl-0 pr-0">
+      <!-- extra div for an open issue in angular CDK https://github.com/angular/components/issues/14873#issuecomment-916851620 -->
+      <div class="pb-0 col-12 pl-0 pr-0" *ngFor="let block of blocks; index as $index">
+        <workflow-block [index]="$index + 1" [(expand)]="expands[$index]" [blockData]="block"
+          [workflowMode]="workflowMode" (onConfigClick)="workflowConfigClicked($event)"
+          (onCreateDuplicateBlock)="createDuplicateBlock($event)" (onDeleteBlock)="deleteBlock($event)">
+        </workflow-block>
+      </div>
+    </div>
+  </div>
+</div>

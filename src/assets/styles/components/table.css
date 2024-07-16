@@ -1,0 +1,101 @@
+table {
+    color: var(--bs-body-color);
+    border: 1px solid var(--light-gray);
+    width: 100%;
+    table-layout: fixed;
+}
+table th {
+    background-color: var(--gray);
+    font-size: var(--font-size-small);
+    vertical-align: top;
+    text-align: left;
+    padding: 1em 1rem 1.2em !important;
+}
+th .e-headertext{
+    font-weight: bold;
+}
+td {
+    font-size: var(--font-size-small);
+    vertical-align: middle;
+    padding: 0.5em 1rem;
+    border-bottom: 1px solid var(--dark-gray);
+}
+th span, td span {
+    font-weight: normal;
+    padding: 0;
+}
+tr:hover td {
+    background-color: var(--light-gray) !important;
+}
+.e-grid td.e-active {
+    background: var(--light) !important;
+}
+.e-grid .e-table {
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+    width: 100% !important;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: transparent;
+}
+.e-grid .e-gridheader {
+    border:none;
+}
+.e-headertext {
+    font-size: var(--font-size-small);
+}
+.e-grid .e-gridheader tr th:first-child, .e-grid tr td:first-child  {
+    padding-left: 1.2em !important;
+}
+.e-grid .e-gridheader tr th:last-child, .e-grid tr td:last-child  {
+    padding-right: 1.2em !important;
+}
+.e-grid .e-gridheader tr th.stickyColumn {
+    background-color: var(--gray);
+    position: sticky;
+    right: 0;
+    z-index: 2;
+}
+.e-grid tr td.stickyColumn {
+    background-color: var(--white);
+    position: sticky;
+    right: 0;
+    z-index: 2;
+}
+.e-grid th.stickyColumn .e-headercelldiv {
+    padding-right: 0px;
+}
+.e-grid .e-gridheader .e-headercell, .e-grid .e-gridheader .e-detailheadercell  {
+     padding: 1rem 1rem !important;
+     vertical-align: middle;
+}
+.e-grid .e-rowcell {
+     padding: .4rem 1rem!important;
+     height: 40px !important;
+}
+/* .e-grid.e-responsive .e-rowcell, .e-grid.e-responsive .e-headercelldiv {
+    text-overflow: unset;
+    white-space: inherit;
+} */
+/* .e-grid .e-rowcell.actionCol, .e-grid .e-headercell.actionCol .e-headercelldiv {
+    width: 100px;
+} */
+.e-rowcell > span {
+    display: flex;
+    align-items: center;
+}
+td.e-focused.e-focus {
+    box-shadow: none;
+}
+
+.e-grid .e-filtermenudiv { 
+    margin: -17px -5px !important;
+    padding: 0 !important; 
+}
+tr.e-detailrow:hover .innerGrid tr td, tr.e-detailrow:hover .innerGrid tr:nth-child(odd) td{
+    background-color: var(--white) !important;
+}
+tr.e-detailrow .innerGrid tr:nth-child(odd):hover td, tr.e-detailrow .innerGrid tr:nth-child(even):hover td{
+    background-color: var(--light) !important;
+}
